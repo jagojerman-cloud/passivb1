@@ -89,7 +89,6 @@ margin-bottom:10px;
 
 .solution{
 margin-top:8px;
-color:#2c3e50;
 font-style:italic;
 display:none;
 }
@@ -120,7 +119,6 @@ border-radius:8px;
 font-weight:bold;
 cursor:pointer;
 color:white;
-box-shadow:0 4px 0 rgba(0,0,0,0.2);
 }
 
 .check{
@@ -146,6 +144,7 @@ margin-left:10px;
 
 
 <!-- Aufgabe 1 -->
+
 <div class="accordion">
 
 <div class="accordion-header">
@@ -156,7 +155,6 @@ margin-left:10px;
 <div class="content">
 
 <div class="example">
-<b>Beispiel:</b><br><br>
 Aktiv: Der Lehrer erklärt die Grammatik.<br>
 Passiv: <b>Die Grammatik wird vom Lehrer erklärt.</b>
 </div>
@@ -166,7 +164,7 @@ Passiv: <b>Die Grammatik wird vom Lehrer erklärt.</b>
 <input id="p1">
 <div id="s1" class="solution"></div>
 <button class="button check" onclick="checkAnswer('p1','Der Test wird von den Schülern geschrieben.','s1')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('p1','s1')">↻ Neu starten</button>
+<button class="button reset" onclick="resetAnswer('p1','s1')">Neu starten</button>
 </div>
 
 <div class="question">
@@ -174,7 +172,7 @@ Passiv: <b>Die Grammatik wird vom Lehrer erklärt.</b>
 <input id="p2">
 <div id="s2" class="solution"></div>
 <button class="button check" onclick="checkAnswer('p2','Das Essen wird von der Mutter gekocht.','s2')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('p2','s2')">↻ Neu starten</button>
+<button class="button reset" onclick="resetAnswer('p2','s2')">Neu starten</button>
 </div>
 
 <div class="question">
@@ -182,7 +180,7 @@ Passiv: <b>Die Grammatik wird vom Lehrer erklärt.</b>
 <input id="p3">
 <div id="s3" class="solution"></div>
 <button class="button check" onclick="checkAnswer('p3','Das Auto wird vom Mechaniker repariert.','s3')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('p3','s3')">↻ Neu starten</button>
+<button class="button reset" onclick="resetAnswer('p3','s3')">Neu starten</button>
 </div>
 
 <div class="question">
@@ -190,7 +188,7 @@ Passiv: <b>Die Grammatik wird vom Lehrer erklärt.</b>
 <input id="p4">
 <div id="s4" class="solution"></div>
 <button class="button check" onclick="checkAnswer('p4','Autos werden von der Firma produziert.','s4')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('p4','s4')">↻ Neu starten</button>
+<button class="button reset" onclick="resetAnswer('p4','s4')">Neu starten</button>
 </div>
 
 <div class="question">
@@ -198,14 +196,16 @@ Passiv: <b>Die Grammatik wird vom Lehrer erklärt.</b>
 <input id="p5">
 <div id="s5" class="solution"></div>
 <button class="button check" onclick="checkAnswer('p5','Die Straße wird von der Polizei kontrolliert.','s5')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('p5','s5')">↻ Neu starten</button>
+<button class="button reset" onclick="resetAnswer('p5','s5')">Neu starten</button>
 </div>
 
 </div>
 </div>
+
 
 
 <!-- Aufgabe 2 -->
+
 <div class="accordion">
 
 <div class="accordion-header">
@@ -216,7 +216,6 @@ Passiv: <b>Die Grammatik wird vom Lehrer erklärt.</b>
 <div class="content">
 
 <div class="example">
-<b>Beispiel:</b><br><br>
 Aktiv: Der Lehrer erklärte die Grammatik.<br>
 Passiv: <b>Die Grammatik wurde vom Lehrer erklärt.</b>
 </div>
@@ -226,7 +225,7 @@ Passiv: <b>Die Grammatik wurde vom Lehrer erklärt.</b>
 <input id="pr1">
 <div id="s6" class="solution"></div>
 <button class="button check" onclick="checkAnswer('pr1','Der Test wurde von den Schülern geschrieben.','s6')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('pr1','s6')">↻ Neu starten</button>
+<button class="button reset" onclick="resetAnswer('pr1','s6')">Neu starten</button>
 </div>
 
 <div class="question">
@@ -234,14 +233,40 @@ Passiv: <b>Die Grammatik wurde vom Lehrer erklärt.</b>
 <input id="pr2">
 <div id="s7" class="solution"></div>
 <button class="button check" onclick="checkAnswer('pr2','Das Essen wurde von der Mutter gekocht.','s7')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('pr2','s7')">↻ Neu starten</button>
+<button class="button reset" onclick="resetAnswer('pr2','s7')">Neu starten</button>
+</div>
+
+<div class="question">
+<div class="words">Der Koch bereitete das Menü vor.</div>
+<input id="pr3">
+<div id="s8" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pr3','Das Menü wurde vom Koch vorbereitet.','s8')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pr3','s8')">Neu starten</button>
+</div>
+
+<div class="question">
+<div class="words">Die Studenten lasen das Buch.</div>
+<input id="pr4">
+<div id="s9" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pr4','Das Buch wurde von den Studenten gelesen.','s9')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pr4','s9')">Neu starten</button>
+</div>
+
+<div class="question">
+<div class="words">Der Mechaniker reparierte das Auto.</div>
+<input id="pr5">
+<div id="s10" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pr5','Das Auto wurde vom Mechaniker repariert.','s10')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pr5','s10')">Neu starten</button>
 </div>
 
 </div>
 </div>
+
 
 
 <!-- Aufgabe 3 -->
+
 <div class="accordion">
 
 <div class="accordion-header">
@@ -252,7 +277,6 @@ Passiv: <b>Die Grammatik wurde vom Lehrer erklärt.</b>
 <div class="content">
 
 <div class="example">
-<b>Beispiel:</b><br><br>
 Aktiv: Der Lehrer hat die Grammatik erklärt.<br>
 Passiv: <b>Die Grammatik ist vom Lehrer erklärt worden.</b>
 </div>
@@ -260,17 +284,41 @@ Passiv: <b>Die Grammatik ist vom Lehrer erklärt worden.</b>
 <div class="question">
 <div class="words">Die Schüler haben den Test geschrieben.</div>
 <input id="pf1">
-<div id="s8" class="solution"></div>
-<button class="button check" onclick="checkAnswer('pf1','Der Test ist von den Schülern geschrieben worden.','s8')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('pf1','s8')">↻ Neu starten</button>
+<div id="s11" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pf1','Der Test ist von den Schülern geschrieben worden.','s11')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pf1','s11')">Neu starten</button>
+</div>
+
+<div class="question">
+<div class="words">Die Mutter hat das Essen gekocht.</div>
+<input id="pf2">
+<div id="s12" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pf2','Das Essen ist von der Mutter gekocht worden.','s12')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pf2','s12')">Neu starten</button>
 </div>
 
 <div class="question">
 <div class="words">Die Firma hat Autos produziert.</div>
-<input id="pf2">
-<div id="s9" class="solution"></div>
-<button class="button check" onclick="checkAnswer('pf2','Autos sind von der Firma produziert worden.','s9')">Antwort prüfen</button>
-<button class="button reset" onclick="resetAnswer('pf2','s9')">↻ Neu starten</button>
+<input id="pf3">
+<div id="s13" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pf3','Autos sind von der Firma produziert worden.','s13')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pf3','s13')">Neu starten</button>
+</div>
+
+<div class="question">
+<div class="words">Der Mechaniker hat das Auto repariert.</div>
+<input id="pf4">
+<div id="s14" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pf4','Das Auto ist vom Mechaniker repariert worden.','s14')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pf4','s14')">Neu starten</button>
+</div>
+
+<div class="question">
+<div class="words">Die Studenten haben das Buch gelesen.</div>
+<input id="pf5">
+<div id="s15" class="solution"></div>
+<button class="button check" onclick="checkAnswer('pf5','Das Buch ist von den Studenten gelesen worden.','s15')">Antwort prüfen</button>
+<button class="button reset" onclick="resetAnswer('pf5','s15')">Neu starten</button>
 </div>
 
 </div>
